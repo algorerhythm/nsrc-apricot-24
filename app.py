@@ -1,4 +1,5 @@
 import requests
+import os
 
 def get_ip_info(ip_address):
     url = f"https://api.bgpview.io/ip/{ip_address}"
