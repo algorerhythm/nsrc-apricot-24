@@ -53,6 +53,6 @@ def print_ip_info(ip_info):
         print("No information available for the given IP address.")
 
 if __name__ == "__main__":
-    ip_address = os.environ.get('IP_ADDRESS', '128.223.32.35')  # Default to '128.223.32.35' if not set
+    ip_address = os.environ.get('IP_ADDRESS', '8.8.8.8')  # Default to '8.8.8.8' if not set
     ip_info = get_ip_info(ip_address)
     print_ip_info(ip_info)
